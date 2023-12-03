@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+    <title>IntelliGrow</title>
+    <link rel="stylesheet" href="intellistyle.css">
+</head>
+<body>
+    <div class="headingback">
+        <img src="logo.jpeg" alt="Logo" width="13%" height="100%" class="logo">
+        <p class="heading">IntelliGrow</p>
+    </div>
+    <div class="navbar">
+        <a href="#" class="menu">Home</a>
+        <a href="#" class="menu">Growing Tips</a>
+        <a href="#about" class="menu">About</a>
+        <a href="#container2" class="menu">FAQs</a>
+        <a href="login.html" class="menur">Login</a>
+        <a href="Register.html" class="menur">Register</a>
+    </div>
+    <div class="main">
+        <h3 class="font">Plant Trees, Plant Future</h3>
+        <img src="front.jpeg" alt="picture" class="background-image">
+    </div>
+    <div class="space">
+        <p>COMMON INDORE PLANTS</p>
+    </div>
+    <div class="photos">
+        <section>
+            <img src="image1.jpeg" alt="" srcset="" width="24.7%" height="300px" class="images">
+            <img src="image2.jpeg" alt="" srcset="" width="24.7%" height="300px" class="images">
+            <img src="image3.jpeg" alt="" srcset="" width="24.7%" height="300px" class="images">
+            <img src="image4.jpg" alt="" srcset="" width="24.7%" height="300px" class="images">
+            <img src="image5.jpg" alt="" srcset="" width="24.7%" height="300px" class="images">
+            <img src="image6.jpg" alt="" srcset="" width="24.7%" height="300px" class="images">
+            <img src="image7.jpg" alt="" srcset="" width="24.7%" height="300px" class="images">
+            <img src="image8.jpg" alt="" srcset="" width="24.7%" height="300px" class="images">
+        </section>
+    </div>
+    <div class="container">
+    <h2>Plant Information</h2>
+    <form id="plantForm">
+        <label for="plantType">Plant Type:</label>
+        <select id="plantType" name="plantType" required>
+            <option value="">Select Plant Type</option>
+            <option value="rose">Rose</option>
+            <option value="tulip">Tulip</option>
+            <option value="sunflower">Sunflower</option>
+            <!-- Add more plant options as needed -->
+        </select>
+
+        <label for="plantingDate">Planting Date:</label>
+        <input type="date" id="plantingDate" name="plantingDate" required>
+
+        <label for="temperature">Temperature (&#8451;):</label>
+        <input type="number" id="temperature" name="temperature" min="-50" max="50" step="0.1" required>
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+    <div id="about">
+        <h1 style="font-size: 50px;">About us</h1>
+        <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis provident aut earum et voluptates magni nemo expedita laudantium soluta laborum neque doloremque impedit modi fugit, debitis, asperiores, architecto cupiditate fugiat sint assumenda eaque ea blanditiis? Reiciendis labore minima alias quis odio quod exercitationem ullam sit velit possimus, odit et autem.</p>
+        <div class="image-sec">
+            <div class="image">
+                <img src="nidhi.jpeg" alt="" srcset="" width="100%" height="150px" class="icon">
+                <p style="text-align: center;">Nidhi</p>
+                <p style="font-size: smaller;">nidhi.chaudhary6666@gmail.com</p>
+            </div>
+            <div class="image">
+                <img src="mansi.jpeg" alt="" srcset="" width="100%" height="150px" class="icon">
+                <p style="text-align: center;">Mansi Varshney</p>
+                <p style="font-size: smaller;">mansigupta94124@gmail.com</p>
+            </div>
+            <div class="image">
+                <img src="raksha.jpeg" alt="" srcset="" width="100%" height="150px" class="icon">
+                <p style="text-align: center;">Raksha Awasthi</p>
+                <p style="font-size: smaller;">awasthiraksha5@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <div id="container2">
+        <h1>FAQ</h1>
+        <div class="faq">
+            <div class="question">What is the Plant Monitoring System?</div>
+            <div class="answer">The Plant Monitoring System is a web application that allows users to track and monitor the health and growth of their plants remotely.</div>
+        </div>
+        <div class="faq">
+            <div class="question">How does it work?</div>
+            <div class="answer">Users can enter data such as plantation date, temperature, and typeof plant. The system then provides real-time updates and alerts to users through a user-friendly interface.</div>
+        </div>
+        <div class="faq">
+            <div class="question">Can I monitor multiple plants at once?</div>
+            <div class="answer">Yes, the Plant Monitoring System supports monitoring multiple plants simultaneously. Users can add and manage multiple plants from their account dashboard.</div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2023 IntelliGrow. All rights reserved.</p>
+    </footer>
+    <script src="intelliGrow.js"></script>
+</body>
+</html>
